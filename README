@@ -1,0 +1,22 @@
+Pangaea
+=========
+
+Collection of google technologies lashed together to provide simple live translated chat between 
+users of different languages.
+
+Overview
+--------
+
+   * GWT front end
+   * GWT RPC to Java back end
+   * App Engine runtime and hosting
+
+Why?
+----
+
+I have a lovely Italian friend who keeps trying to talk to me on Facebook.
+
+URL
+-----
+
+http://pan-gea.appspot.com
