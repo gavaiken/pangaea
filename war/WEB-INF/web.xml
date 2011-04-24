@@ -4,7 +4,19 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<!-- TODO: Add <servlet> tags for each servlet here. -->
-	<!-- TODO: Add <servlet-mapping> tags for each <servlet> here. -->
-	<!-- TODO: Optionally add a <welcome-file-list> tag to display a welcome file. -->
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>chatServiceImpl</servlet-name>
+    <servlet-class>aiken.gav.appengine.pangaea.server.ChatServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chatServiceImpl</servlet-name>
+    <url-pattern>/pangaea/chatService</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>Pangaea.html</welcome-file>
+  </welcome-file-list>
 </web-app>
